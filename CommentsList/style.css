@@ -23,9 +23,12 @@ small {
 	background-color: #fff;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.2);
 }
+.comments__list > * {
+  overflow: hidden;
+}
 .comment__item {
 	display: flex;
-	line-height: 1.4rem;
+  line-height: 1.4rem;
 }
 .comment__item p {
 	margin: 0;
@@ -91,6 +94,38 @@ small {
 	line-height: 1;
 	max-height: 1 * 1;
 }
+.comment__add {
+  display: flex;
+  align-items: center;
+  margin-top: .5rem;
+}
+.comment__add form {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.comment__add form input {
+  padding: 1rem;
+  width: -webkit-fill-available;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  background-color: #f1f1f1;
+  font-size: 14px;
+}
+.comment__add button {
+  position: absolute;
+  right: 1rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: bisque;
+  color: #222;
+  font-weight: bold;
+}
 
 .user__photo__container img,
 .comment__box small,
@@ -98,6 +133,7 @@ small {
 .react,
 .reply,
 .reactions__count,
-.replies__list li {
+.replies__list li,
+.comment__add button {
 	cursor: pointer;
 }
