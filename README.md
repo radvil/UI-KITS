@@ -4,4 +4,4 @@
 #### Because of coding UI/templates directly from a framework workspace is pain is the ass.
 
 ## CommentsList
-![Comments List](https://github.com/radvil/UI-KITS/blob/main/CommentsList/Screehshots/Screenshot_20210116_235049.png)
+![Comments List](https://raw.githubusercontent.com/radvil/UI-KITS/main/Screenshots/Screenshot_20210116_235049.png)
