@@ -1,0 +1,65 @@
+html,
+body {
+	font-size: 14px;
+	margin: 0;
+}
+body {
+  background: url('../../assets/images/background.jpg');
+	background-color: #333;
+  background-size: cover;
+	height: 100vh;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+  background-color: #181818;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #F05033;
+}
+
+/* text color */
+.primary {
+	color: #00c69f;
+	font-weight: bold;
+}
+.bgrad-primary {
+	background: linear-gradient(to right, #00c69f 0%, #0094d4 100%);
+}
+.accent {
+	color: #0094d4;
+}
+.bgrad-accent {
+	background: linear-gradient(to right, #0094d4 0%, #76149c 100%);
+}
+.warn {
+  color: #F05033;
+}
+.danger {
+  color: #DD0031;
+}
+
+/* animation */
+@keyframes fade {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+.blink {
+	animation: fade 1000ms infinite;
+}
+
+.noScroll {
+	overflow: auto;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.noScroll::-webkit-scrollbar {
+	display: none;
+}
