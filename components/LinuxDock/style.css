@@ -10,6 +10,7 @@ body {
 	background-color: #0e0e15a6;
 	backdrop-filter: blur(5px);
 	box-shadow: 0px -3px 8px 3px #17171f73;
+  border-top: 1px solid #464646;
 	position: fixed;
 	bottom: 0;
 	max-height: 100px;
@@ -47,6 +48,7 @@ body {
 
 .active {
   border-bottom: 2px solid #ff7979;
+  background-color: #00000026;
 }
 
 .active .image__container {
@@ -63,7 +65,7 @@ body {
 	.dock__container {
 		left: calc(50vw - 200px);
 		width: 400px;
-		border: 1px solid #444;
+		border: 1px solid #464646;
 		border-bottom: none;
 		border-radius: 0.5rem 0.5rem 0 0;
 	}
