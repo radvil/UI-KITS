@@ -161,7 +161,6 @@ pre {
 	}
 	.window__header {
 		border-radius: 0 0.5rem;
-    /* background-color: #efefef99; */
     background-color: #171a3378;
 	}
 	.window__content {
